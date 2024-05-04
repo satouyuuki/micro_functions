@@ -5,9 +5,10 @@ steps:
   - functions
   - deploy
   - cafe-search-bot
+  - --gen2
   - --region=asia-northeast1
   - --source=.
   - --trigger-http
-  - --entry-point=HelloHTTP
+  - --entry-point=SearchCafe
   - --runtime=go122
   - --allow-unauthenticated
